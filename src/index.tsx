@@ -30,11 +30,6 @@ const setting = {
       source:
         "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.30808-6/485863073_10232270389695451_6722723282110461103_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8fISMDkU8mcQ7kNvwF15Rsp&_nc_oc=Adnssvx5ir-VcM5uQRnQu40O9wHDozJ6ZAtekD-oAl3WYGVJhjH7bpwKnvzM0Dp1g9yiX-Mqu14RvQ0REG0bR5Bf&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=zcHGzoyPcqIjdO1nY88BWw&oh=00_AfH5A7Vvh61fUx74R3J8_leBbaPk2JDGIaLVoXFBvQ07ZQ&oe=67F77DF0",
     },
-    {
-      source:
-        "https://images.unsplash.com/photo-1526938972776-11558ad4de30?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=973795a277e861265b0fabbf4a96afe2&auto=format&fit=crop&w=750&q=80",
-    },
-    ,
   ],
   showNumOfRemainingPhotos: true,
 };
