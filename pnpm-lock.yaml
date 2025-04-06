@@ -13,7 +13,7 @@ dependencies:
     version: 17.0.2(react@17.0.2)
   react-photo-collage:
     specifier: 1.0.8
-    version: 1.0.8(@types/react-dom@17.0.0)(@types/react@17.0.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2)
+    version: 1.0.8(@types/react-dom@19.1.1)(@types/react@16.14.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2)
   react-scripts:
     specifier: 2.1.3
     version: 2.1.3(eslint@5.16.0)(react@17.0.2)(typescript@4.1.3)
@@ -23,11 +23,11 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: 17.0.0
-    version: 17.0.0
+    specifier: 16.14.0
+    version: 16.14.0
   '@types/react-dom':
-    specifier: 17.0.0
-    version: 17.0.0
+    specifier: 19.1.1
+    version: 19.1.1(@types/react@16.14.0)
   typescript:
     specifier: 4.1.3
     version: 4.1.3
@@ -2189,13 +2189,15 @@ packages:
     resolution: {integrity: sha512-hroOstUScF6zhIi+5+x0dzqrHA1EJi+Irri6b1fxolMTqqHIV/Cg77EtnQcZqZCu8hR3mX2BzIxN4/GzI68Kfw==}
     dev: false
 
-  /@types/react-dom@17.0.0:
-    resolution: {integrity: sha512-lUqY7OlkF/RbNtD5nIq7ot8NquXrdFrjSOR6+w9a9RFQevGi1oZO1dcJbXMeONAPKtZ2UrZOEJ5UOCVsxbLk/g==}
+  /@types/react-dom@19.1.1(@types/react@16.14.0):
+    resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
+    peerDependencies:
+      '@types/react': ^19.0.0
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
 
-  /@types/react@17.0.0:
-    resolution: {integrity: sha512-aj/L7RIMsRlWML3YB6KZiXB3fV2t41+5RBGYF8z+tAKU43Px8C3cYUZsDvf1/+Bm4FK21QWBrDutu8ZJ/70qOw==}
+  /@types/react@16.14.0:
+    resolution: {integrity: sha512-jJjHo1uOe+NENRIBvF46tJimUvPnmbQ41Ax0pEm7pRvhPg+wuj8VMOHHiMvaGmZRzRrCtm7KnL5OOE/6kHPK8w==}
     dependencies:
       '@types/prop-types': 15.7.14
       csstype: 3.1.3
@@ -9985,7 +9987,7 @@ packages:
     resolution: {integrity: sha512-X1Y+0jR47ImDVr54Ab6V9eGk0Hnu7fVWGeHQSOXHf/C2pF9c6uy3gef8QUeuUiWlNb0i08InPSE5a/KJzNzw1Q==}
     dev: false
 
-  /react-focus-lock@2.13.6(@types/react@17.0.0)(react@17.0.2):
+  /react-focus-lock@2.13.6(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-ehylFFWyYtBKXjAO9+3v8d0i+cnc1trGS0vlTGhzFW1vbFXVUTmR8s2tt/ZQG8x5hElg6rhENlLG1H3EZK0Llg==}
     peerDependencies:
       '@types/react': '*'
@@ -9995,16 +9997,16 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.27.0
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       focus-lock: 1.3.6
       prop-types: 15.8.1
       react: 17.0.2
       react-clientside-effect: 1.2.7(react@17.0.2)
-      use-callback-ref: 1.3.3(@types/react@17.0.0)(react@17.0.2)
-      use-sidecar: 1.1.3(@types/react@17.0.0)(react@17.0.2)
+      use-callback-ref: 1.3.3(@types/react@16.14.0)(react@17.0.2)
+      use-sidecar: 1.1.3(@types/react@16.14.0)(react@17.0.2)
     dev: false
 
-  /react-focus-on@3.9.4(@types/react@17.0.0)(react@17.0.2):
+  /react-focus-on@3.9.4(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-NFKmeH6++wu8e7LJcbwV8TTd4L5w/U5LMXTMOdUcXhCcZ7F5VOvgeTHd4XN1PD7TNmdvldDu/ENROOykUQ4yQg==}
     engines: {node: '>=8.5.0'}
     peerDependencies:
@@ -10014,14 +10016,14 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       aria-hidden: 1.2.4
       react: 17.0.2
-      react-focus-lock: 2.13.6(@types/react@17.0.0)(react@17.0.2)
-      react-remove-scroll: 2.6.3(@types/react@17.0.0)(react@17.0.2)
-      react-style-singleton: 2.2.3(@types/react@17.0.0)(react@17.0.2)
+      react-focus-lock: 2.13.6(@types/react@16.14.0)(react@17.0.2)
+      react-remove-scroll: 2.6.3(@types/react@16.14.0)(react@17.0.2)
+      react-style-singleton: 2.2.3(@types/react@16.14.0)(react@17.0.2)
       tslib: 2.8.1
-      use-sidecar: 1.1.3(@types/react@17.0.0)(react@17.0.2)
+      use-sidecar: 1.1.3(@types/react@16.14.0)(react@17.0.2)
     dev: false
 
   /react-full-screen@0.2.5(prop-types@15.8.1)(react@17.0.2):
@@ -10030,13 +10032,13 @@ packages:
       prop-types: ^15.5
       react: ^15.6 || ^16
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       fscreen: 1.2.0
       prop-types: 15.8.1
       react: 17.0.2
     dev: false
 
-  /react-images@1.1.7(@types/react@17.0.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2):
+  /react-images@1.1.7(@types/react@16.14.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-9paR4bdP/SPTbJ/8cLa6+7+pcq8PGN4/8UjTfztQKBRzGxH0BtHrB7oj/7As2RmYMkOsVIMNfDaWzZZK4faIRA==}
     peerDependencies:
       prop-types: ^15.7.2
@@ -10051,7 +10053,7 @@ packages:
       raf-schd: 2.1.2
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
-      react-focus-on: 3.9.4(@types/react@17.0.0)(react@17.0.2)
+      react-focus-on: 3.9.4(@types/react@16.14.0)(react@17.0.2)
       react-full-screen: 0.2.5(prop-types@15.8.1)(react@17.0.2)
       react-transition-group: 2.9.0(react-dom@17.0.2)(react@17.0.2)
       react-view-pager: 0.6.0(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2)
@@ -10078,7 +10080,7 @@ packages:
       react: 17.0.2
     dev: false
 
-  /react-photo-collage@1.0.8(@types/react-dom@17.0.0)(@types/react@17.0.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2):
+  /react-photo-collage@1.0.8(@types/react-dom@19.1.1)(@types/react@16.14.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-bbDNtSjYJsvDXxKU+8FjaqBANmyg4IYHc1kH1PdPqjGGBPs3m/QF4u3mJq4FwjmBwgSEAeb7p+bPoc3qLFcImw==}
     peerDependencies:
       '@types/react': ^16.14.6
@@ -10086,11 +10088,11 @@ packages:
       react: ^16.14.0
       react-dom: ^16.14.0
     dependencies:
-      '@types/react': 17.0.0
-      '@types/react-dom': 17.0.0
+      '@types/react': 16.14.0
+      '@types/react-dom': 19.1.1(@types/react@16.14.0)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
-      react-images: 1.1.7(@types/react@17.0.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2)
+      react-images: 1.1.7(@types/react@16.14.0)(prop-types@15.8.1)(react-dom@17.0.2)(react@17.0.2)
     transitivePeerDependencies:
       - prop-types
     dev: false
@@ -10099,7 +10101,7 @@ packages:
     resolution: {integrity: sha512-1tKOwxFn3dXVomH6pM9IkLkq2Y8oh+fh/lYW3MJ/B03URswUTqttgckOlbxY2XHF3vPG6uanSc4dVsLW/wk3wQ==}
     dev: false
 
-  /react-remove-scroll-bar@2.3.8(@types/react@17.0.0)(react@17.0.2):
+  /react-remove-scroll-bar@2.3.8(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -10109,13 +10111,13 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       react: 17.0.2
-      react-style-singleton: 2.2.3(@types/react@17.0.0)(react@17.0.2)
+      react-style-singleton: 2.2.3(@types/react@16.14.0)(react@17.0.2)
       tslib: 2.8.1
     dev: false
 
-  /react-remove-scroll@2.6.3(@types/react@17.0.0)(react@17.0.2):
+  /react-remove-scroll@2.6.3(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-pnAi91oOk8g8ABQKGF5/M9qxmmOPxaAnopyTHYfqYEwJhyFrbbBtHuSgtKEoH0jpcxx5o3hXqH1mNd9/Oi+8iQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -10125,13 +10127,13 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       react: 17.0.2
-      react-remove-scroll-bar: 2.3.8(@types/react@17.0.0)(react@17.0.2)
-      react-style-singleton: 2.2.3(@types/react@17.0.0)(react@17.0.2)
+      react-remove-scroll-bar: 2.3.8(@types/react@16.14.0)(react@17.0.2)
+      react-style-singleton: 2.2.3(@types/react@16.14.0)(react@17.0.2)
       tslib: 2.8.1
-      use-callback-ref: 1.3.3(@types/react@17.0.0)(react@17.0.2)
-      use-sidecar: 1.1.3(@types/react@17.0.0)(react@17.0.2)
+      use-callback-ref: 1.3.3(@types/react@16.14.0)(react@17.0.2)
+      use-sidecar: 1.1.3(@types/react@16.14.0)(react@17.0.2)
     dev: false
 
   /react-scripts@2.1.3(eslint@5.16.0)(react@17.0.2)(typescript@4.1.3):
@@ -10205,7 +10207,7 @@ packages:
       - webpack-command
     dev: false
 
-  /react-style-singleton@2.2.3(@types/react@17.0.0)(react@17.0.2):
+  /react-style-singleton@2.2.3(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -10215,7 +10217,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       get-nonce: 1.0.1
       react: 17.0.2
       tslib: 2.8.1
@@ -10725,7 +10727,7 @@ packages:
       walker: 1.0.8
       watch: 0.18.0
     optionalDependencies:
-      fsevents: 1.2.4
+      fsevents: 1.2.13
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -12034,7 +12036,7 @@ packages:
       qs: 6.14.0
     dev: false
 
-  /use-callback-ref@1.3.3(@types/react@17.0.0)(react@17.0.2):
+  /use-callback-ref@1.3.3(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -12044,12 +12046,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       react: 17.0.2
       tslib: 2.8.1
     dev: false
 
-  /use-sidecar@1.1.3(@types/react@17.0.0)(react@17.0.2):
+  /use-sidecar@1.1.3(@types/react@16.14.0)(react@17.0.2):
     resolution: {integrity: sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -12059,7 +12061,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.0
+      '@types/react': 16.14.0
       detect-node-es: 1.1.0
       react: 17.0.2
       tslib: 2.8.1
